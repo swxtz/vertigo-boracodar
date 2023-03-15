@@ -27,10 +27,15 @@ export const GlobalStyles = createGlobalStyle`
 
   html {
     background-color: var(--bg-color);
+
   }
 
   body {
     font-family: "Titillium Web", sans-serif;
+  }
+
+  html, body {
+    overflow: hidden;
   }
 `;
 
